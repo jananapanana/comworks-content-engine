@@ -32,6 +32,8 @@ Filled 2026-10-06 from the `url` column of each data source.
 | ICP: CMO | https://app.notion.com/3e3f11b7f6cb81539d68cc4671d07f91 |
 | ICP: CRO or CSO | https://app.notion.com/3e3f11b7f6cb81c9be83dc8c29b09645 |
 | ICP: Counterpart | https://app.notion.com/3e3f11b7f6cb8170bf21e483ba619383 |
+| ICP: Director / VP (added 2026-10-31) | https://app.notion.com/40af11b7f6cb81e6bd04f8ecaafca0c9 |
+| ICP: Solopreneur (added 2026-10-31) | https://app.notion.com/40af11b7f6cb8118a158fb70f19e905c |
 
 ## Connector limits
 
