@@ -9,6 +9,8 @@ What Jana takes from building the engine. One to three lines per step, dated, wi
 
 - 2026-10-31 (COM-84, COM-85): The Notion connector can change a database schema (new select options, new fields) and add rows, so configuration in Markdown and workflow state in Notion can be kept in step from one session. The Markdown file is still the one that counts
 
+- 2026-10-31 (COM-82): An SSH key is the Mac's ID card towards GitHub: private half stays on the machine, public half is pasted once into the account settings (not the repo settings). A GPG key would sign individual commits and is not needed for a one-person private repo. Repo settings and account settings are two different pages in GitHub, the key belongs to the account
+
 ## Engine (architecture, decisions)
 
 - 2026-10-31: Markdown configuration is canonical, Notion holds workflow state, Claude Code is the runtime. The same split the Layer Cache proposal called Option A, built without a backend of its own
