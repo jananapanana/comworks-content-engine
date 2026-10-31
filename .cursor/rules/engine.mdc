@@ -1,0 +1,30 @@
+---
+description: Rules for working on the COM works Social Media Content Engine in Cursor
+alwaysApply: true
+---
+
+# Working in this repository
+
+Read `README.md` and `core/ENGINE.md` before changing anything. Everything in this repository is English.
+
+## Three rules that outrank everything else
+
+1. No client money. No costs, prices, day rates, budgets, tool spend or contract values of any client, in any file, template or test fixture
+2. Nothing reaches the Notion board before the checks in `core/checks.md` pass
+3. Markdown in `tenants/<tenant>/` is canonical configuration. Do not duplicate it elsewhere
+
+## What Cursor does here
+
+- Renderer and templates: `core/render/render.js`, the HTML templates, visual checks V1 to V7
+- Reading and explaining the engine so the operator learns the code
+- Small, reviewable edits with a Linear issue id (`COM-NN`) in the commit message
+
+## What Cursor does not do here
+
+- No writes to Notion, no runs of the engine. Runs happen in Claude Code (`/ce-run`, `/ce-render`, `/ce-learn`) because the connectors live there
+- No new source types or clients in `tenants/` without an approved Linear issue
+- No raw client material (transcripts, exports, emails) added to the repository
+
+## Style
+
+No em or en dashes in prose, periods or colons instead. No emojis. Bullets without trailing periods.

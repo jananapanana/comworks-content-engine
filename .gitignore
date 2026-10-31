@@ -1,0 +1,7 @@
+# Rendered files are regenerated from the board, not versioned
+output/
+# Manual uploads may hold raw client material, never versioned
+inbox/
+# Machine-local
+.DS_Store
+node_modules/
