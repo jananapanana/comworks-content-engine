@@ -46,7 +46,7 @@ content-engine/
 - No build partner. The engine is built in-house; the Layer Cache proposal stays the concept reference, nothing more
 - No raw copies of sources in this repo. Configuration and anonymised knowledge notes only. Raw sources are read per run through the connectors, Notion keeps the workflow state
 - Inbox (Gmail) is **Never use** for now
-- This folder becomes its own private GitHub repository (`jananapanana/comworks-content-engine`), nested in the vault like `website/`
+- This folder is its own private GitHub repository, [jananapanana/comworks-content-engine](https://github.com/jananapanana/comworks-content-engine), nested in the vault like `website/`. Linked to Linear since 2026-10-31: a commit message with `COM-NN` shows up under that issue
 - Cursor Free works on this repo for renderer, templates and reading code. Claude Code runs the engine
 - New sources: My 2 Cents (Notion), Claude Code sessions. Transcripts move from planned to active
 - Audience widened: CEO, CMO, CRO stay the core, Director and VP level at enterprise and Series B companies added, solopreneurs read along
